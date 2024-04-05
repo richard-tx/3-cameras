@@ -1,5 +1,5 @@
 #!/bin/sh
-# System startup script for K1 USB camera
+# System startup script for K1 USB camera(s).
 
 ### BEGIN INIT INFO
 # Provides:          usb_camera
