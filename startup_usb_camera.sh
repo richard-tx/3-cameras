@@ -1,8 +1,9 @@
 #!/bin/sh
-#Thia file inits 3 cameras  total.  The built in camera and 2 usb cameras
+#Thia file inits 3 cameras  total.  The built in camera and 2 usb cameras.
+# Use mjpeg stream and 
 
 kill -9 $(pidof mjpg_streamer)
-kill -9 $(fuser /dev/video4)
+kill -9 $(fuser /dev/video4)/webcam/?action=stream_n where n = 1 or 2. 
 kill -9 $(fuser /dev/video5)
 kill -9 $(fuser /dev/video6)
 
