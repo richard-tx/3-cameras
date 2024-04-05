@@ -1,0 +1,5 @@
+the S files go into /etc/init.d.  chmod them to 755
+
+the startup file goes into /usr/data
+
+also chmod 755 the startup fiile
