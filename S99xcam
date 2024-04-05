@@ -1,0 +1,4 @@
+sleep 20
+nohup /usr/bin/mjpg_streamer -b -i "/usr/lib/mjpg-streamer/input_uvc.so -d /dev/video4" -i "/usr/lib/mjpg-streamer/input_uvc.so \
+ -d /dev/video6" -o "/usr/lib/mjpg-streamer/output_http.so -p 8080"
+
