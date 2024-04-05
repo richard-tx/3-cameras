@@ -1,6 +1,6 @@
 #!/bin/sh
 # System startup script for K1 USB camera(s).
-
+# I used the creality nebula cameras.  they cost about $26.
 ### BEGIN INIT INFO
 # Provides:          usb_camera
 # Required-Start:    $local_fs S56moonraker
